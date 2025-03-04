@@ -109,5 +109,3 @@ Follow these steps to decrypt and extract the dataset:
    tar -xvzf GenAISearch_Data.tar.gz
    ```
 
-This will unpack the dataset, making it ready for use.
-
