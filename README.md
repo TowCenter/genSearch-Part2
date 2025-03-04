@@ -1,3 +1,5 @@
+Article Link: 
+
 # Methodology
 
 We systematically tested eight generative search tools:
@@ -73,4 +75,7 @@ Each response was categorized as follows:
 - **Partially Incorrect**: Some attributes were correct while others were incorrect.
 - **Completely Incorrect**: All three attributes were incorrect and/or missing.
 - **Not Provided**: No information was provided.
+
+### The password to access the data:
+Qz8!pL4#XvG2@rT9KdY&
 
