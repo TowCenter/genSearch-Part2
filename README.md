@@ -77,10 +77,6 @@ Each response was categorized as follows:
 - **Completely Incorrect**: All three attributes were incorrect and/or missing.
 - **Not Provided**: No information was provided.
 
-### ### **How to Access the Data File**
-
-Follow these steps to decrypt and extract the dataset:
-
 ### **How to Access the Data File**
 
 Follow these steps to decrypt and extract the dataset:
