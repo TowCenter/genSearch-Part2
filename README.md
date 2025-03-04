@@ -8,7 +8,8 @@ We systematically tested eight generative search tools:
 - Perplexity Pro
 - DeepSeek-V3 Search 
 - Microsoft’s Copilot
-- xAI’s Grok-2 and Grok-3 (beta)
+- xAI’s Grok-2 
+- xAI's Grok-3 (beta)
 - Google’s Gemini (2.0 Flash)
 
 ## Publisher Selection
