@@ -77,6 +77,38 @@ Each response was categorized as follows:
 - **Completely Incorrect**: All three attributes were incorrect and/or missing.
 - **Not Provided**: No information was provided.
 
-### The password to access the data:
-Qz8!pL4#XvG2@rT9KdY&
+### ### **How to Access the Data File**
+
+Follow these steps to decrypt and extract the dataset:
+
+### **How to Access the Data File**
+
+Follow these steps to decrypt and extract the dataset:
+
+1. **Download the data file** to your local system.
+2. **Navigate to the file location** in your terminal:
+
+   ```bash
+   cd [path_to_file]
+   ```
+
+3. **Decrypt the file using GPG** (you will be prompted for a password):
+
+   ```bash
+   gpg --output GenAISearch_Data.tar.gz --decrypt GenAISearch_Data.tar.gz.gpg
+   ```
+
+4. **Use the following password when prompted:**
+   ```
+   Qz8!pL4#XvG2@rT9KdY&
+   ```
+
+5. **Extract the contents of the decrypted archive:**
+
+   ```bash
+   tar -xvzf GenAISearch_Data.tar.gz
+   ```
+
+This will unpack the dataset, making it ready for use.
+```
 
