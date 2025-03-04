@@ -81,8 +81,8 @@ Each response was categorized as follows:
 
 Follow these steps to decrypt and extract the dataset:
 
-1. **Download the data file** to your local system.
-2. **Navigate to the file location** in your terminal:
+1. **Clone the repo** 
+2. **Navigate to the file location of the repo** in your terminal:
 
    ```bash
    cd [path_to_file]
