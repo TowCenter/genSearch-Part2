@@ -3,13 +3,13 @@ Article Link:
 # Methodology
 
 We systematically tested eight generative search tools:
-- OpenAI’s ChatGPT Search
+- OpenAI’s ChatGPT Search (4o) 
 - Perplexity
 - Perplexity Pro
-- DeepSeek Search
+- DeepSeek-V3 Search 
 - Microsoft’s Copilot
 - xAI’s Grok-2 and Grok-3 (beta)
-- Google’s Gemini
+- Google’s Gemini (2.0 Flash)
 
 ## Publisher Selection
 We chose 20 news publishers with varying stances on AI access that either permit search bots’ web crawlers via `robots.txt`, or block them. 
