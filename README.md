@@ -1,5 +1,35 @@
 Article Link: 
 
+## **How to Access the Data File**
+
+To ensure this dataset can be reused, we have encrypted the data to prevent AI search tools from accessing the excerpts we used for the study. Follow these steps to decrypt and see the dataset:
+
+1. **Clone the repo** 
+2. **Navigate to the file location of the repo** in your terminal:
+
+   ```bash
+   cd [path_to_file]
+   ```
+
+3. **Decrypt the file using GPG** (you will be prompted for a password):
+
+   ```bash
+   gpg --output GenAISearch_Data.tar.gz --decrypt GenAISearch_Data.tar.gz.gpg
+   ```
+
+4. **Use the following password when prompted:**
+   ```
+   Qz8!pL4#XvG2@rT9KdY&
+   ```
+
+5. **Extract the contents of the decrypted archive:**
+
+   ```bash
+   tar -xvzf GenAISearch_Data.tar.gz
+   ```
+
+
+
 # Methodology
 
 We systematically tested eight generative search tools:
@@ -76,32 +106,4 @@ Each response was categorized as follows:
 - **Partially Incorrect**: Some attributes were correct while others were incorrect.
 - **Completely Incorrect**: All three attributes were incorrect and/or missing.
 - **Not Provided**: No information was provided.
-
-## **How to Access the Data File**
-
-Follow these steps to decrypt and extract the dataset:
-
-1. **Clone the repo** 
-2. **Navigate to the file location of the repo** in your terminal:
-
-   ```bash
-   cd [path_to_file]
-   ```
-
-3. **Decrypt the file using GPG** (you will be prompted for a password):
-
-   ```bash
-   gpg --output GenAISearch_Data.tar.gz --decrypt GenAISearch_Data.tar.gz.gpg
-   ```
-
-4. **Use the following password when prompted:**
-   ```
-   Qz8!pL4#XvG2@rT9KdY&
-   ```
-
-5. **Extract the contents of the decrypted archive:**
-
-   ```bash
-   tar -xvzf GenAISearch_Data.tar.gz
-   ```
 
