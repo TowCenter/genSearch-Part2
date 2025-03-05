@@ -2,7 +2,7 @@ Article Link:
 
 ## **How to Access the Data File**
 
-To ensure this dataset can be reused, we have encrypted the data to prevent AI search tools from accessing the excerpts we used for the study. Follow these steps to decrypt and see the dataset:
+To ensure this dataset can be reused, we have encrypted the data to prevent AI search tools from accessing the excerpts we used in the study. Follow these steps to decrypt and see the dataset:
 
 1. **Clone the repo** 
 2. **Navigate to the file location of the repo** in your terminal:
